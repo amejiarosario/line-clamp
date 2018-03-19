@@ -1,0 +1,22 @@
+{
+  "name": "line-clamp",
+  "description": "Line clamp a DOM element in vanilla JavaScript.",
+  "main": "index.js",
+  "authors": [
+    "Lim Yuan Qing"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "clamp",
+    "dom",
+    "ellipsis",
+    "html",
+    "line",
+    "clamp",
+    "line-clamp",
+    "text",
+    "truncate",
+    "truncation"
+  ],
+  "homepage": "https://github.com/yuanqing/line-clamp"
+}
