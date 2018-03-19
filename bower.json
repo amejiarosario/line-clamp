@@ -1,9 +1,10 @@
 {
   "name": "line-clamp",
   "description": "Line clamp a DOM element in vanilla JavaScript.",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "authors": [
-    "Lim Yuan Qing"
+    "Lim Yuan Qing",
+    "Adrian Mejia <me@adrianmejia.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -18,5 +19,5 @@
     "truncate",
     "truncation"
   ],
-  "homepage": "https://github.com/yuanqing/line-clamp"
+  "homepage": "https://github.com/amejiarosario/line-clamp"
 }

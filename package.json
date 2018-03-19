@@ -22,7 +22,8 @@
     "start": "concurrently \"watchify index.js --standalone lineClamp --outfile example/bundle.js\" \"ecstatic example --port 8080\" \"opn 'http://0.0.0.0:8080/'\"",
     "fix": "prettier-standard index.js",
     "lint": "standard index.js",
-    "weight": "uglifyjs index.js --compress --mangle --toplevel | gzip-size"
+    "weight": "uglifyjs index.js --compress --mangle --toplevel | gzip-size",
+    "dist": "watchify index.js --standalone lineClamp --outfile dist/bundle.js"
   },
   "keywords": [
     "clamp",
